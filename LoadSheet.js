@@ -18,6 +18,6 @@ function LoadSheet(sheet) {
     });
 }
 
-CarregarPlanilha("--YOUR PUBLIC WEB SHEET LINK HERE--").then(sheet => {
+LoadSheet("--YOUR PUBLIC WEB SHEET LINK HERE--").then(sheet => {
     console.log(sheet);
 });
